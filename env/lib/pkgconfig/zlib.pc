@@ -1,0 +1,13 @@
+prefix=/Users/raghavsharma/document_portal/env
+exec_prefix=/Users/raghavsharma/document_portal/env
+libdir=/Users/raghavsharma/document_portal/env/lib
+sharedlibdir=/Users/raghavsharma/document_portal/env/lib
+includedir=/Users/raghavsharma/document_portal/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
